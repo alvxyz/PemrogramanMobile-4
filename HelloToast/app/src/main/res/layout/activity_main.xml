@@ -16,13 +16,15 @@
         android:layout_marginTop="10dp"
         android:background="@color/colorAccent"
         android:text="@string/button_label_toast"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:onClick="showToast"/>
 
     <TextView
         android:id="@+id/show_count"
         android:layout_width="match_parent"
-        android:layout_height="341dp"
+        android:layout_height="wrap_content"
         android:background="@color/myBackgroundColor"
+        android:gravity="center"
         android:text="@string/count_initial_value"
         android:textColor="@color/colorPrimary"
         android:textSize="@dimen/count_text_size"
@@ -34,7 +36,8 @@
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
         android:text="@string/button_label_count"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:onClick="countUp"/>
 
 
 </LinearLayout>
