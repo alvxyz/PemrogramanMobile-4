@@ -1,4 +1,4 @@
-package com.alvxyz.hellotoast;
+package com.alvxyz.hellorelative;
 
 import androidx.appcompat.app.AppCompatActivity;
 
