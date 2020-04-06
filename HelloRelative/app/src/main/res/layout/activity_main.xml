@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -9,22 +9,17 @@
     android:paddingEnd="@dimen/padding_right"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button_toast"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:background="@color/colorAccent"
-        android:text="@string/button_label_toast"
-        android:textColor="@android:color/white"
-        android:onClick="showToast"/>
-
     <TextView
         android:id="@+id/show_count"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_toEndOf="@id/button_toast"
+        android:layout_toRightOf="@id/button_toast"
         android:background="@color/myBackgroundColor"
-        android:gravity="center"
         android:text="@string/count_initial_value"
         android:textColor="@color/colorPrimary"
         android:textSize="@dimen/count_text_size"
@@ -33,12 +28,23 @@
 
     <Button
         android:id="@+id/button_count"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/button_toast"
         android:background="@color/colorAccent"
+        android:onClick="countUp"
         android:text="@string/button_label_count"
-        android:textColor="@android:color/white"
-        android:onClick="countUp"/>
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:onClick="showToast"
+        android:text="@string/button_label_toast"
+        android:textColor="@android:color/white" />
 
 
-</LinearLayout>
+</RelativeLayout>
