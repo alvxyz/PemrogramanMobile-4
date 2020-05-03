@@ -1,4 +1,4 @@
-package  com.alvxyz.radiobuttondemo.ui.login;
+package com.alvxyz.radiobuttondemo.ui.login;
 
 /**
  * Class exposing authenticated user details to the UI.

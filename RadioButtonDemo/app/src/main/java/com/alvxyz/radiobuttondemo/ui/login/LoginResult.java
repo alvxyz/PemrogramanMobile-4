@@ -1,4 +1,4 @@
-package  com.alvxyz.radiobuttondemo.ui.login;
+package com.alvxyz.radiobuttondemo.ui.login;
 
 import androidx.annotation.Nullable;
 

@@ -2,5 +2,5 @@
 <resources>
     <dimen name="paddingLeft">24dp</dimen>
     <dimen name="padding_right">24dp</dimen>
-    <dimen name="count_text_size">160sp</dimen>
+    <dimen name="count_text_size">180sp</dimen>
 </resources>

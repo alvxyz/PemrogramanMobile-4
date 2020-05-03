@@ -1,4 +1,4 @@
-package com.alvxyz.hellorelative;
+package com.alvxyz.helloconstraint;
 
 import org.junit.Test;
 

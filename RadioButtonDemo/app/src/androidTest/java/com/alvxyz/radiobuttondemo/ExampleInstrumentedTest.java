@@ -1,4 +1,4 @@
-package com.alvxyz.hellorelative;
+package com.alvxyz.radiobuttondemo;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.alvxyz.hellotoast", appContext.getPackageName());
+        assertEquals("com.alvxyz.radiobuttondemo", appContext.getPackageName());
     }
 }
